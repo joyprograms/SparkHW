@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    Welcome. {{name}}.
+    <form action="/create-message" method="post">
+        <input type="text" placeholder="Enter your message" name="message"/>
+        <button type="submit">Login</button>
+    </form>
+
+    <ol>
+        {{#messages3}}
+            <li>{{message}}</li>
+        {{/messages3}}
+    </ol>`
+</body>
+</html>
